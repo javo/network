@@ -1,6 +1,6 @@
 {
   "name": "network",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Cross platform network utilities for Node.js (gateway_ip, MAC address, etc)",
   "main": "./lib/index.js",
   "scripts": {
@@ -10,8 +10,6 @@
     "network": "./bin/network"
   },
   "dependencies": {
-    "async": "^1.5.2",
-    "commander": "2.9.0",
     "needle": "1.1.2",
     "wmic": "^0.1.0"
   },
